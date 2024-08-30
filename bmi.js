@@ -1,3 +1,5 @@
+// Bmi calculator
+
 const heightFeet = 5.4;
 const weight = 65;
 
