@@ -22,5 +22,10 @@ const num = 17;
 const arr1 = [10,20,30,40,50]
 const arr2 = [60,70,80,90,100]
 console.log(arr1.concat(arr2))
-console.log(arr1)
-console.log(arr2)
+// console.log(arr1)
+// console.log(arr2)
+
+const member = [1,2,3,4,5,6,7,8,9,10]
+for( let i = 0; i<member.length; i++){
+    console.log(member[i])
+}

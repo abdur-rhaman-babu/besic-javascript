@@ -1,13 +1,13 @@
 // Bmi calculator
 
-const heightFeet = 5.4;
-const weight = 65;
+const heightFeet = 5.2;
+const weight = 43;
 
 const heightMeter = heightFeet * 0.3048
 
 const bmi = weight / (heightMeter ** 2)
 
-console.log(`BMI = ${bmi}`)
+console.log(`BMI = ${bmi.toFixed(2)}`)
 
 if(bmi < 18.5){
     console.log('Underweight')
