@@ -9,7 +9,6 @@
 // }
 
 // Find all the even numbers from 78 to 98.
-
 let even = 78;
 while(even <= 98){
     if( even%2 === 0){
