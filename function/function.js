@@ -39,7 +39,7 @@ function make_avg(numbers){
 const arr = [1,2,3,4,5,6,7,8,9,10]
 
 const result2 = make_avg(arr);
-// console.log(`Avarage = ${result2}`)
+console.log(`Avarage = ${result2}`)
 
 
 // Write a function called count_zero() which will take a binary string (Binary string is a string which is consist of only 0 and 1) as parameter and count how many 0’s are there in that string.
@@ -52,7 +52,7 @@ function count_zero(str){
 
 const binaryString = '00101100111';
 const totalZero = count_zero(binaryString);
-// console.log('total Zero is', totalZero)
+console.log('total Zero is', totalZero)
 
 
 // Write a function called odd_even() which takes an integer value and tells whether this value is even or odd. If even return Even. If odd return Odd
