@@ -41,7 +41,10 @@ function findLagestNumber(number){
     }
     return min;
 }
+
 const minNumber = findLagestNumber(number);
 // console.log(minNumber)
+
+
 
 

@@ -14,4 +14,19 @@ function demandOfFuniture(chair, table, bed){
 } 
 
 const total = demandOfFuniture(2,1,2);
-console.log(total)
+// console.log(total)
+
+function demandOfCloth(chair, table, bed){
+    const shirtPerPieces = 500;
+    const pantPerPieces = 1500;
+    const shoosePerPieces = 3000;
+
+    const shirtPrice = chair * shirtPerPieces;
+    const pantPrice = table * pantPerPieces;
+    const shoosePrice = bed * shoosePerPieces;
+    const totalPrice = shirtPrice + pantPrice + shoosePrice;
+    return totalPrice;
+} 
+
+const totalPrice = demandOfCloth(2,1,2);
+console.log(totalPrice)
