@@ -29,4 +29,4 @@ function demandOfCloth(chair, table, bed){
 } 
 
 const totalPrice = demandOfCloth(2,1,2);
-console.log(totalPrice)
+// console.log(totalPrice)
