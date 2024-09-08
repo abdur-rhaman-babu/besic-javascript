@@ -120,4 +120,5 @@ function findDuplicateNumbers(numbers){
 }
 
 const uniqueNumber = findDuplicateNumbers(numbers);
-console.log(uniqueNumber)
+// console.log(uniqueNumber)
+
