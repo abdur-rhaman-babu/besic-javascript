@@ -12,4 +12,14 @@ function findSmallestName (heights){
 }
 
 const smallest = findSmallestName(heights2)
-console.log(smallest) 
+// console.log(smallest) 
+
+// Your task is to calculate the total budget required to buy electronics:
+function calculateElectronicsBudget(laptop, tablet, mobile){
+    const total = laptop + tablet + mobile;
+    return total;
+}
+
+const totalMoney = calculateElectronicsBudget(35000, 15000, 20000)
+// console.log(totalMoney)
+
