@@ -37,4 +37,4 @@ function checkName2(name,letters){
 }
 
 const result1 = checkName2(sureName, vowels)
-// console.log(result1)
+// console.log(result1)e
