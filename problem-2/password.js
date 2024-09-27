@@ -33,14 +33,15 @@ function greatePasswords(myInfo, name, year, web){
     myInfo.name = name;
     myInfo.birthYear = byear;
     myInfo.website = web;
-    if ( (byear.length < 4 || byear.length > 4) || ((name === undefined || web === undefined || year === undefined))){
-        console.log('Invalid')
+    if ((byear.length < 4 || byear.length > 4) || ((name === undefined || web === undefined || year === undefined))){
+        return 'Invalid';
     }
     else{
         const firstLetter = myInfo.website[0].toUpperCase() + myInfo.website.slice(1)
         const password = firstLetter + '#' + myInfo.name.toLowerCase() + '@' + myInfo.birthYear;
-        console.log(password)
+        return password;
     }
 }
 
-greatePasswords(myInfo, 'Babul', 1999, 'google') 
+const result = greatePasswords(myInfo, 'Babul', 1999, 'google') ;
+console.log(result)
